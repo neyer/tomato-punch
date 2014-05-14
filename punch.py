@@ -41,7 +41,7 @@ from optparse import OptionParser
 #
 
 
-ImageDir = "/home/mneyer/src/todo-indicator"
+ImageDir = os.path.dirname(__file__)
 ImageCount = 40 
 
 class PunchCommandError(ValueError):
