@@ -20,6 +20,11 @@ Created on Mar 5, 2009
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+
+Modified May 14, 2014 by Mark P Neyer
+    Added the 'genmon' command which displays code for the 'generic monitor'
+    on xubuntu, from the xfce4-goodies package.
+
 '''
 from os.path import abspath, exists, join
 from os import pathsep, getenv
